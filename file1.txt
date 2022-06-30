@@ -1,0 +1,7 @@
+Split string into tokens
+A sequence of calls to this function split str into tokens, which are sequences of contiguous characters 
+separated by any of the characters that are part of delimiters.
+On a first call, the function expects a C string as argument for str, 
+whose first character is used as the starting location to scan for tokens. 
+In subsequent calls, the function expects a null pointer and uses 
+the position right after the end of the last token as the new starting location for scanning.
